@@ -1,0 +1,21 @@
+loop the split list
+
+if smily append
+elif frowny append
+else dump
+
+loop again with userin
+
+newanswer += v
+newanswer += " "
+
+
+
+answer={"")
+if word==k:
+    answer += word
+elif:
+        print (v)
+
+else:
+    print('Negative number')
