@@ -2,7 +2,7 @@ import random
 import sys
 
 
-def get_level():
+def main():
 
     while True:
         random_int_list = []
@@ -77,7 +77,7 @@ def get_level():
                         user_score = user_score + 1
 
                     elif user_answer != z and wrong_counter == 2:
-                        print('The Correct answer is: ' + str(z))
+                        print(str(x_in) + ' + ' + str(y_in) + ' = ' + str(z))
                         Correct_Flag = Correct_Flag + 1
 
                     else:
@@ -128,6 +128,6 @@ def generate_integer(level):
 
 
 
-get_level()
+main()
 
 
